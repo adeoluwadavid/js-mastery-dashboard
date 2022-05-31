@@ -6,8 +6,6 @@ import {
   Inject,
   DateTime,
   Legend,
-  Tooltip,
-  LineSeries,
   SplineAreaSeries
 } from "@syncfusion/ej2-react-charts";
 import {Header} from '../../components'
@@ -15,9 +13,6 @@ import {
   areaCustomSeries,
   areaPrimaryYAxis,
   areaPrimaryXAxis,
-  lineCustomSeries,
-  LinePrimaryYAxis,
-  LinePrimaryXAxis,
 } from "../../data/dummy";
 import { useStateContext } from "../../contexts/ContextProvider";
 
